@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+}
+body{
+    background: #16384c;
+
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin-top: 30px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.imgBx-1{
+    height: 300px;
+    width: 100%;
+}
+
+.imgBx-2{
+    height: 300px;
+    width: 100%;
+}
+
+.imgBx-3{
+    height: 300px;
+    width: 100%;
+}
+
+.content-1{
+    display: none;
+}
+
+.content-2{
+    display: none;
+}
+
+.content-3{
+    display: none;
+}
+
+.imgBx-1:hover + .content-1 {
+    display: block;
+}
+
+.imgBx-2:hover + .content-2 {
+    display: block;
+}
+
+.imgBx-3:hover + .content-3 {
+    display: block;
+}
